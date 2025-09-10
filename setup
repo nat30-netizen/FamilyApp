@@ -1,0 +1,13 @@
+# Clone the repository (replace YOUR_USERNAME with your GitHub username)
+git clone https://github.com/YOUR_USERNAME/truck-family-app.git
+cd truck-family-app
+
+# Create React app in current directory
+npx create-react-app .
+
+# Install additional dependencies
+npm install lucide-react
+
+# Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
